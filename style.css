@@ -45,6 +45,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    background: url('images/separateur.png') repeat-x bottom;
 }
 
 header img {
@@ -61,13 +62,11 @@ header h1 {
 header h2 {
     font-family: 'Dayrom';
     font-size: 17px;
-    margin-bottom: 0px;
     margin-top: 0px;
 }
 
 header nav ul {
     display: flex;
-    margin-bottom: 0px;
 }
 
 header nav ul li {
@@ -83,9 +82,51 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: red;
-    text-decoration: underline;
+    color: #760001;
+    border-bottom: 3px solid #760001;
 }
+
+/* Bannière */
+
+#banniere_image {
+    background-image: url('images/sanfrancisco.jpg');
+    height: 219px;
+    margin-top: 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+#banniere_description {
+    background-color:rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 39px;
+    top: 180px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#banniere_description p {
+    color: white;
+    position: absolute;
+    left: 5px;
+    font-family: 'Arial';
+    font-size: 13px;
+}
+
+#banniere_image a {
+    background-image: url('images/fond_degraderouge.png');
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    right: 6px;
+    bottom: 5px;
+    font-family: 'Arial';
+    font-size: 14px;
+}
+
+
+
 
 
 
