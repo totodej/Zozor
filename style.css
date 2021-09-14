@@ -34,6 +34,10 @@ body {
     margin: auto;
 }
 
+header, section, footer {
+    padding: 0px 20px;
+}
+
 /* Header */
 
 #logo {
@@ -125,8 +129,125 @@ header nav ul li a:hover {
     font-size: 14px;
 }
 
+/* Section */
+
+section {
+    display: flex;
+    margin-top: 20px;
+    background: url('images/separateur.png') repeat-x bottom;
+
+}
+
+article, aside {
+    text-align: justify;
+}
+
+article {
+    flex: 3;
+}
+
+aside {
+    flex: 1.2;
+    border-radius: 5px;
+    background-color: #706b64;
+    height: 408px;
+    box-shadow: 0px 0px 4px 0px;
+}
+
+article h1 {
+    font-family: 'Dayrom';
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+article img {
+    margin-right: 10px;;
+}
+
+article p {
+    margin-right : 10px;
+    font-size: 14px;
+}
+
+aside h1 {
+    font-family: 'Dayrom';
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.imageAside {
+    margin: auto;
+    display: flex;
+}
+
+aside p {
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+aside p img {
+    width: 18%;
+}
 
 
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h1 {
+    font-family: "Dayrom";
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+#tweet, #mes_photos, #mes_amis {
+    width: 33%;
+    margin-top: 20px;;
+}
+
+#tweet p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#mes_photos p {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mes_photos img {
+    border: 1px solid black;
+    width: 23%;
+}
+
+#amis {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mes_amis ul li {
+    list-style-type: none;
+    list-style-image: url('images/ico_liensexterne.png');
+}
+
+#mes_amis ul li a {
+    color: #760001;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#mes_amis ul {
+    margin-top: 0px;;
+    padding: 0px 18px;
+}
 
 
 
